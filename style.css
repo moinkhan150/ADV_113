@@ -1,0 +1,17 @@
+@keyframes example
+{
+    from {box-shadow: 1px 10px 40px lightblue;}
+    to {box-shadow: 1px 10px 40px lightgreen;}
+}
+h3
+{
+  font-size: 25px !important;
+}
+canvas 
+{
+  margin-left: 25%;
+  border:7px dotted cyan;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
